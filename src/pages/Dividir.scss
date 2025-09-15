@@ -1,0 +1,37 @@
+.dividir {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+.input-num {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.btn-calcular {
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #61dafb;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-calcular:hover {
+  background-color: #21b4d6;
+}
+
+.resultado {
+  margin-top: 10px;
+  font-size: 18px;
+}

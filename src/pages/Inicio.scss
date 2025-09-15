@@ -1,0 +1,22 @@
+.inicio {
+  background-color: #282c34;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.inicio nav {
+  margin-top: 20px;
+}
+
+.inicio nav a {
+  color: #61dafb;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.inicio nav a:hover {
+  text-decoration: underline;
+}
