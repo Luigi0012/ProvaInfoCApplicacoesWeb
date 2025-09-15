@@ -1,10 +1,13 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import Inicio from './pages/Inicio'
+import Dividir from './pages/Dividir'
+import Multiplicar from './pages/Multiplicar'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <Inicio />
+    <Dividir />
+    <Multiplicar />
   </StrictMode>,
 )
